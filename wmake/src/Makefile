@@ -52,6 +52,9 @@ WM_COMPILE_OPTION = Opt
 GENERAL_RULES   = $(WM_DIR)/rules/General
 include $(GENERAL_RULES)/general
 
+cc=gcc -m64 -O3
+CC=g++ -m64 -O3
+
 
 #------------------------------------------------------------------------------
 # Targets
